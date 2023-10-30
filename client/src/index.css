@@ -1,17 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,600;1,900&display=swap");
 @import url("https://rsms.me/inter/inter.css");
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html {
-  font-family: "Inter", sans-serif;
+  font-family: 'Nosifer', cursive; /* Changed to Nosifer */
 }
 
 @supports (font-variation-settings: normal) {
   html {
-    font-family: "Inter var", sans-serif;
+    font-family: 'Nosifer', cursive; /* Changed to Nosifer */
   }
 }
 
@@ -87,6 +89,6 @@ input[type="file"] {
   border-radius: 6px !important;
 }
 
-.sketch-picker>div:nth-child(3) {
+.sketch-picker > div:nth-child(3) {
   display: none !important;
 }
