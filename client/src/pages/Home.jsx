@@ -19,24 +19,23 @@ const Home = () => {
         <motion.section className="home" {...slideAnimation("left")}>
           <motion.header {...slideAnimation("down")}>
             <img
-              src="./sikwolf2.png"
+              src="./DOGno bg.png"
               alt="logo"
-              className="w-15 h-14 object-contain"
+              className="w-20 h-20 object-contain"
             />
           </motion.header>
 
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
-              <h1 className="head-text">
-                Sik <br className="xl:block hidden" /> Wolf.
-              </h1>
+            <img src="./sikwolf.png" alt="Sik Wolf" className="head-text" />
+              
             </motion.div>
 </motion.div>
             <motion.div
               {...headContentAnimation}
               className="flex flex-col gap-5"
             >
-              <p className="max-w-md font-normal text-gray-600 text-base">
+              <p className="max-w-md font-normal text-yellow-600 text-base">
                 Create your unique and exclusive style with our 3D customisation
                 tool. <strong>Unleash your inner WOLF</strong> and join the
                 pack.
